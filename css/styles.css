@@ -1,0 +1,108 @@
+body{
+  width: 100vw;
+  height: 200vh;
+  overflow: hidden;
+}
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: red;
+}
+.nav-ul{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+.ul-item{
+  margin: 5px;
+}
+.container{
+  width: 100%;
+  height: 95%;
+  background: blue;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.imagen{
+  width: 100px;
+  height: 100px;
+}
+.prods{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.tableProds{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+.addprods{
+  width: 75%;
+  height: 100%;
+}
+.addprod-form{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addProd-Item{
+  height: 25px;
+  margin: 10px;
+  width: 75%;
+}
+.buttonSend{
+  margin: 5px;
+  width: 50%;
+  margin-top: 10px;
+  height: 35px;
+}
+.imgUp{
+  margin:10px 5px;
+  margin-bottom: 15px;
+}
+.loging{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logingForm{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid red;
+  box-shadow: -10px 10px 8px red;
+  border-radius: 20px;
+}
+.logingFormItem{
+  width: 75%;
+  height: 25px;
+  margin-bottom: 20px;
+
+}
+.logingFormBtn{
+  width: 50%;
+  height: 40px;
+}
